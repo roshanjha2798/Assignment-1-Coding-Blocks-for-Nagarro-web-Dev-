@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><u>My BioData</u></h1>
+        </header>
+        <div class="form-details">
+            <form action="#">
+                <fieldset>
+                <legend>Personal Information:</legend>
+                <label for="firstname">First Name:</label>
+                <input type="text"placeholder="&nbsp;&nbsp;&nbsp;First Name" id="firstname">
+
+                <label for="lastname">Last Name:</label>
+                <input type="text"placeholder="&nbsp;&nbsp;&nbsp;Last Name" id="lastname">
+                <br>
+                <br>
+
+                <p>Gender :</p>
+     <input class="gender"type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+    <input class="gender" type="radio" id="female" name="gender" value="female">
+     <label for="female">Female</label>
+     <input class="gender" type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+                <br>
+                <br>
+
+                <label for="dob">DOB:</label>
+                <input type="date" id="dob">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="&nbsp;&nbsp;&nbsp;abc@gmail.com" required>
+                <br>
+                <br>
+
+                <label for="phone">Phone :</label>
+                <input type="tel" maxlength="10" placeholder="&nbsp;&nbsp;&nbsp;+91">
+
+                <label for="height">Height :
+                </label>
+                <input type="height" placeholder="&nbsp;&nbsp;&nbsp;Height in Feet" id="height">
+
+
+            </fieldset>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Education Details:</legend>
+                <div class="education">
+                <label for="schoolname">School Name :</label>
+                <input type="text" id="schoolname" placeholder="&nbsp;&nbsp;&nbsp;School Name">
+                <br>
+                <br>
+                <label for="class">Class :</label>
+                <input type="text" placeholder="&nbsp;&nbsp;&nbsp;Class">
+                <br>
+                <br>
+                <label for="stream">Stream:</label>
+        <select id="stream" name="stream">
+           <option value="CSE" >CSE</option>
+               <option value="IT" selected>IT</option>
+               <option value="ECE">ECE</option>
+                <option value="ME">ME</option>
+           </select>
+         <br>
+         <br>
+           <label for="marksheet">Marksheet :</label>
+           <input id="file" type="file" >
+           </div>
+            </fieldset>
+               <br>
+               <br>
+            <input  id="submit" type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
